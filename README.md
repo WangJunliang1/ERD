@@ -1,3 +1,6 @@
+# ERD
+ERD is an RDMA QP communication mechanism used for AI HPC cluster network protocol design.
+
 ### System Requirements
 Ubuntu 14.04 Server/Desktop
 
@@ -24,13 +27,13 @@ sudo apt-get install python-pygraphviz python-kiwi python-pygoocanvas libgoocanv
 sudo apt-get install libboost-signals-dev libboost-filesystem-dev  <br>
 
 #### 2. Deploy project
-* Download the project and place it in a custom directory (such as /home/ERD/)
+* Download the project and place it in a custom directory (such as /home/ERD/)  <br>
 cd /home/ERD/  <br>
-
-* Configure waf
+  <br>
+* Configure waf  <br>
 ./waf configure  <br>
 ./waf  <br>
-
+  <br>
 Run the test:
 Execute Python ./sim_run.py
 
