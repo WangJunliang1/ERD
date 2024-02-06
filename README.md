@@ -1,5 +1,5 @@
 # ERD
-ERD is an RDMA QP communication mechanism used for AI HPC cluster network protocol design.
+ERD is an RDMA QP communication mechanism used for AI HPC cluster network protocol design, simulation based on NS-3 platform.
 
 ### System Requirements
 Ubuntu 14.04 Server/Desktop
