@@ -6,6 +6,7 @@ Ubuntu 14.04 Server/Desktop
 
 ### Deployment process
 #### 1. Install related environment and dependent libraries
+```
 sudo apt-get install gcc g++ python  <br>
 sudo apt-get install gcc g++ python python-dev  <br>
 sudo apt-get install mercurial  <br>
@@ -25,6 +26,7 @@ sudo apt-get install texlive texlive-extra-utils texlive-latex-extra  <br>
 sudo apt-get install python-sphinx dia  <br>
 sudo apt-get install python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev  <br>
 sudo apt-get install libboost-signals-dev libboost-filesystem-dev  <br>
+```
 
 #### 2. Deploy project
 * Download the project and place it in a custom directory (such as /home/ERD/)  <br>
@@ -39,7 +41,7 @@ cd /home/ERD/
 ```
 
 * Run the test:  <br>
-Execute Python ./sim_run.py  <br>
+Execute Python `./sim_run.py`  <br>
 
 * Result output  <br>
 After executing the test, the results will be output to the `/home/ERD/sim/` directory, and the specific corresponding results are determined by sim-main.conf  <br>
@@ -66,5 +68,5 @@ Explain the functions of the main fields in sim-main.conf.  <br>
 + **linkDelay**: Set the transmission delay of each link, in ms.  <br>
 + **payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>
 ------------     <br> 
-descript: The output description name corresponding to a single test item in compareSet, which is output to out_res_xx.txt together with the test results.  <br>
+Descript: The output description name corresponding to a single test item in compareSet, which is output to out_res_xx.txt together with the test results.  <br>
 ​
