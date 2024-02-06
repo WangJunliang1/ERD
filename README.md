@@ -3,7 +3,7 @@ Ubuntu 14.04 Server/Desktop
 
 ### Deployment process
 #### 1. Install related environment and dependent libraries
-sudo apt-get install gcc g++ python
+sudo apt-get install gcc g++ python  <br>
 sudo apt-get install gcc g++ python python-dev
 sudo apt-get install mercurial
 sudo apt-get install bzr
