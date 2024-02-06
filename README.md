@@ -28,15 +28,21 @@ sudo apt-get install libboost-signals-dev libboost-filesystem-dev  <br>
 
 #### 2. Deploy project
 * Download the project and place it in a custom directory (such as /home/ERD/)  <br>
-cd /home/ERD/  <br>
-  <br>
+
+<html> // Tab开头
+    <title>cd /home/ERD/  </title>
+</html> // 四个空格开头
+
 * Configure waf  <br>
-./waf configure  <br>
-./waf  <br>
-  <br>
+
+<html> // Tab开头
+    <title>./waf configure  <br>
+./waf  <br>  </title>
+</html> // 四个空格开头
+
 * Run the test:  <br>
 Execute Python ./sim_run.py  <br>
-  <br>
+
 * Result output  <br>
 After executing the test, the results will be output to the /home/ERD/sim/ directory, and the specific corresponding results are determined by sim-main.conf  <br>
 
