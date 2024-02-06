@@ -47,6 +47,7 @@ After executing the test, the results will be output to the /home/ERD/sim/ direc
 
 #### 4. Configuration instructions
 Explain the functions of the main fields in sim-main.conf.  <br>
+  <br>
 **conf_name**: Specify the names of the input reference files and output result files, which should correspond to the file names in the /ERD/ directory and generally do not need to be modified.  <br>
 **active**: Whether to enable this scenario test, set to false, and ignore this scenario during testing.  <br>
 **conf_path**: The directory where the test result file is output, relative to the /ERD/ directory, generally does not need to be modified.  <br>
@@ -59,6 +60,7 @@ Explain the functions of the main fields in sim-main.conf.  <br>
 **lossRate**: Packet loss rate. If the packet loss rate is set to a large value, data loss may easily occur and the results cannot be counted. This parameter is valid in the goodput scenario.  <br>
 **bandWidth**: Set the bandwidth value for the test, in Gbps.  <br>
 **linkDelay**: Set the transmission delay of each link, in ms.  <br>
-**payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>
+**payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>\
+  <br>
 descript: The output description name corresponding to a single test item in compareSet, which is output to out_res_xx.txt together with the test results.  <br>
 ​
