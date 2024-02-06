@@ -4,32 +4,32 @@ Ubuntu 14.04 Server/Desktop
 ### Deployment process
 #### 1. Install related environment and dependent libraries
 sudo apt-get install gcc g++ python  <br>
-sudo apt-get install gcc g++ python python-dev
-sudo apt-get install mercurial
-sudo apt-get install bzr
-sudo apt-get install gdb valgrind
-sudo apt-get install gsl-bin libgsl0-dev libgsl0ldbl
-sudo apt-get install flex bison libfl-dev
-sudo apt-get install g++-3.4 gcc-3.4
-sudo apt-get install tcpdump
-sudo apt-get install sqlite sqlite3 libsqlite3-dev
-sudo apt-get install libxml2 libxml2-dev
-sudo apt-get install libgtk2.0-0 libgtk2.0-dev
-sudo apt-get install vtun lxc
-sudo apt-get install uncrustify
-sudo apt-get install doxygen graphviz imagemagick
-sudo apt-get install texlive texlive-extra-utils texlive-latex-extra
-sudo apt-get install python-sphinx dia
-sudo apt-get install python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev
-sudo apt-get install libboost-signals-dev libboost-filesystem-dev
+sudo apt-get install gcc g++ python python-dev  <br>
+sudo apt-get install mercurial  <br>
+sudo apt-get install bzr  <br>
+sudo apt-get install gdb valgrind  <br>
+sudo apt-get install gsl-bin libgsl0-dev libgsl0ldbl  <br>
+sudo apt-get install flex bison libfl-dev  <br>
+sudo apt-get install g++-3.4 gcc-3.4  <br>
+sudo apt-get install tcpdump  <br>
+sudo apt-get install sqlite sqlite3 libsqlite3-dev  <br>
+sudo apt-get install libxml2 libxml2-dev  <br>
+sudo apt-get install libgtk2.0-0 libgtk2.0-dev  <br>
+sudo apt-get install vtun lxc  <br>
+sudo apt-get install uncrustify  <br>
+sudo apt-get install doxygen graphviz imagemagick  <br>
+sudo apt-get install texlive texlive-extra-utils texlive-latex-extra  <br>
+sudo apt-get install python-sphinx dia  <br>
+sudo apt-get install python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev  <br>
+sudo apt-get install libboost-signals-dev libboost-filesystem-dev  <br>
 
 #### 2. Deploy project
-Download the project and place it in a custom directory (such as /home/ERD/)
-cd /home/ERD/
+* Download the project and place it in a custom directory (such as /home/ERD/)
+cd /home/ERD/  <br>
 
-Configure waf
-./waf configure
-./waf
+* Configure waf
+./waf configure  <br>
+./waf  <br>
 
 Run the test:
 Execute Python ./sim_run.py
