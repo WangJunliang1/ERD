@@ -60,7 +60,7 @@ Explain the functions of the main fields in sim-main.conf.  <br>
 **lossRate**: Packet loss rate. If the packet loss rate is set to a large value, data loss may easily occur and the results cannot be counted. This parameter is valid in the goodput scenario.  <br>
 **bandWidth**: Set the bandwidth value for the test, in Gbps.  <br>
 **linkDelay**: Set the transmission delay of each link, in ms.  <br>
-**payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>\
+**payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>
   <br>
 descript: The output description name corresponding to a single test item in compareSet, which is output to out_res_xx.txt together with the test results.  <br>
 ​
