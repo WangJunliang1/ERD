@@ -61,6 +61,6 @@ Explain the functions of the main fields in sim-main.conf.  <br>
 **bandWidth**: Set the bandwidth value for the test, in Gbps.  <br>
 **linkDelay**: Set the transmission delay of each link, in ms.  <br>
 **payloadSize**: Set the size of data to be transmitted each time, in byte.  <br>
-  <br>
+  <br> ------------
 descript: The output description name corresponding to a single test item in compareSet, which is output to out_res_xx.txt together with the test results.  <br>
 ​
