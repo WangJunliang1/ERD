@@ -1,0 +1,25 @@
+0b000301 0b000101 10000 100 200000000 2000000000 35669855 16772160
+0b000201 0b000101 10000 100 200000000 2000000000 36685006 16772160
+
+
+"FCT" 是"Flow Completion Time" 的缩写，翻译为"流完成时间"。它是计算机网络和分布式系统领域中的一个重要性能指标，用于衡量网络中的数据流从发送端开始到接收端完成所需的时间。
+FCT的主要目的是测量一个特定数据流的完整传输时间，包括数据流的排队、传输、处理和接收等各个阶段。这个度量对于评估网络性能、应用程序性能以及识别潜在瓶颈非常有用。
+
+
+q->sip.Get(),
+q->dip.Get(), 
+q->sport, 
+q->dport, 
+q->m_size, 
+q->startTime.GetTimeStep(), 
+(Simulator::Now() - q->startTime).GetTimeStep(), 
+standalone_fct
+
+
+standalone_fct = base_rtt + total_bytes * 8000000000lu / b;
+"standalone_fct" 通常是指 "Stand-alone Flow Completion Time"，翻译为"独立的流完成时间"。它是一种用于测量计算机网络或分布式系统中数据流的完成时间的指标。
+与通常的 "FCT"（Flow Completion Time，流完成时间）不同，standalone_fct 更强调单独的数据流，而不是整个流量类别或流量组。
+具体来说，standalone_fct 用于衡量特定的数据流从开始到结束所需的时间，而不考虑其他相关数据流的影响。这个指标通常用于评估网络或系统中单个数据流的性能和延迟，以便更好地了解其在网络或系统中的行为。
+
+
+total_bytes = q->m_size + ((q->m_size-1) / packet_payload_size + 1) * (CustomHeader::GetStaticWholeHeaderSize() - IntHeader::GetStaticSize()); // translate to the minimum bytes required (with header but no INT)
