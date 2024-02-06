@@ -53,7 +53,7 @@ After executing the test, the results will be output to the `/home/ERD/sim/` dir
 
 #### 4. Configuration instructions
 Explain the functions of the main fields in sim-main.conf.  <br>
-  <br>
+
 + **conf_name**: Specify the names of the input reference files and output result files, which should correspond to the file names in the /ERD/ directory and generally do not need to be modified.  <br>
 + **active**: Whether to enable this scenario test, set to false, and ignore this scenario during testing.  <br>
 + **conf_path**: The directory where the test result file is output, relative to the /ERD/ directory, generally does not need to be modified.  <br>
