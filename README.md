@@ -47,9 +47,9 @@ Execute Python `./sim_run.py`  <br>
 After executing the test, the results will be output to the `/home/ERD/sim/` directory, and the specific corresponding results are determined by `sim-main.conf`.  <br>
 
 #### 3. Test instructions
-1) You can open the `/home/ERD/sim-main-sample.conf` file, which contains the test configurations of four scenarios as a reference.  <br>
-2) After executing the test, the results will be automatically generated to `/home/ERD/sim/{scenario name}/out_res_xx.txt`.  <br>
-3) The configuration and results of this real test scenario are stored in the `/home/ERD/output` directory.  <br>
+* You can open the `/home/ERD/sim-main-sample.conf` file, which contains the test configurations of four scenarios as a reference.  <br>
+* After executing the test, the results will be automatically generated to `/home/ERD/sim/{scenario name}/out_res_xx.txt`.  <br>
+* The configuration and results of this real test scenario are stored in the `/home/ERD/output` directory.  <br>
 
 
 ------------     <br> 
